@@ -79,7 +79,7 @@
     <Content Include="Pages\Content\ConfigureAchievements.aspx" />
     <Content Include="Pages\Content\Scoreboard.aspx" />
     <Content Include="Pages\Content\Simulate.aspx" />
-    <Content Include="Pages\Default.aspx" />
+    <Content Include="Default.aspx" />
     <Content Include="Pages\Master\Gamification.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -133,11 +133,11 @@
     <Compile Include="Pages\Content\Simulate.aspx.designer.cs">
       <DependentUpon>Simulate.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Default.aspx.cs">
+    <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\Default.aspx.designer.cs">
+    <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Master\Gamification.Master.cs">
