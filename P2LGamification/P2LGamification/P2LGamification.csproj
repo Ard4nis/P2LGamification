@@ -81,6 +81,8 @@
     <Content Include="Pages\Content\Simulate.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Pages\Master\Gamification.Master" />
+    <None Include="Properties\PublishProfiles\p2lgamification - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\p2lgamification - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
