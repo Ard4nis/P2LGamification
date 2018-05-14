@@ -100,6 +100,7 @@
     <Compile Include="Dataclasses\Kunde.cs" />
     <Compile Include="Dataclasses\Kursus.cs" />
     <Compile Include="Dataclasses\Score.cs" />
+    <Compile Include="Datahandlers\DBHandler.cs" />
     <Compile Include="Pages\Content\Achievements.aspx.cs">
       <DependentUpon>Achievements.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
