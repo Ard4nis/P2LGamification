@@ -8,7 +8,7 @@
     <div style="width: 8%; float: left;">
         <telerik:RadTabStrip ID="RadTabStrip1" runat="server" SelectedIndex="0" MultiPageID="RadMultiPage1" Orientation="VerticalLeft" Skin="MetroTouch" Height="100%" Align="Left">
             <Tabs>
-                <telerik:RadTab runat="server" Text="Courses" PageViewID="RadPageView1">
+                <telerik:RadTab runat="server" Text="Kurser" PageViewID="RadPageView1">
                 </telerik:RadTab>
                 <telerik:RadTab runat="server" Text="Achievements" PageViewID="RadPageView2">
                 </telerik:RadTab>
