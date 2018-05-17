@@ -12,7 +12,7 @@ namespace P2LGamification.Datahandlers
     {
         private SqlCommand myCommand;
 
-        private string cs = ConfigurationManager.ConnectionStrings["DBConnection"].ConnectionString;
+        private string cs = ConfigurationManager.ConnectionStrings["DBConnectionString"].ConnectionString;
 
         /// <summary>
         /// Implicit call to default constructor of DBHandler object
