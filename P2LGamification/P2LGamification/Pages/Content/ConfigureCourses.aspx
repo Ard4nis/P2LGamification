@@ -47,11 +47,11 @@
                         <thead>
                             <tr class="rlvHeader">
                                 <th>&nbsp;</th>
-                                <th>Name</th>
-                                <th>CompletionPercentage</th>
-                                <th>Time</th>
-                                <th>Completion</th>
-                                <th>MaxScore</th>
+                                <th>Navn</th>
+                                <th>Gennemførsels %</th>
+                                <th>Tid</th>
+                                <th>Gennemførsel</th>
+                                <th>Max Score</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -64,7 +64,7 @@
             <ItemTemplate>
                 <tr class="rlvI">
                     <td>
-                        <asp:Button ID="DeleteButton" runat="server" CausesValidation="False" CommandName="Delete" CssClass="rlvBDel" Text=" " ToolTip="Delete" />
+                        <asp:Button ID="DeleteButton" runat="server" CausesValidation="False" CommandName="Delete" CssClass="rlvBDel" Text=" " ToolTip="Slet" />
                     </td>
                     <td>
                         <asp:Label ID="NameLabel" runat="server" Text='<%# Eval("Name") %>' />
@@ -108,7 +108,7 @@
             <EmptyDataTemplate>
                 <div class="RadListView RadListView_MetroTouch">
                     <div class="rlvEmpty">
-                        There are no items to be displayed.
+                        Der er ingen kurser at vise.
                     </div>
                 </div>
             </EmptyDataTemplate>
