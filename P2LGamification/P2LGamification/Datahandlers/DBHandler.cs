@@ -4,6 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
+using System.Configuration;
 
 namespace P2LGamification.Datahandlers
 {
@@ -11,7 +12,7 @@ namespace P2LGamification.Datahandlers
     {
         private SqlCommand myCommand;
 
-        private string connectionString = "Data Source=den1.mssql6.gear.host;Initial Catalog=p2lgamification;User ID=p2lgamification;Password=Rw5mU07g-rk-";
+        private string cs = ConfigurationManager.ConnectionStrings["DBConnection"].ConnectionString;
 
         /// <summary>
         /// Implicit call to default constructor of DBHandler object
@@ -20,7 +21,7 @@ namespace P2LGamification.Datahandlers
         {
             myCommand = new SqlCommand
             {
-                Connection = new SqlConnection(connectionString)
+                Connection = new SqlConnection(cs)
             };
         }
 
