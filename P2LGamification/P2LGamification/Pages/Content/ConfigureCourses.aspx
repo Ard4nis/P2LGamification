@@ -16,12 +16,12 @@
 
             <telerik:RadDropDownList ID="CompletionDDL" runat="server" Skin="MetroTouch" SelectedText="50%" SelectedValue="0">
                 <Items>
-                    <telerik:DropDownListItem runat="server" Selected="True" Text="50%" Value="0" />
-                    <telerik:DropDownListItem runat="server" Text="60%" Value="1" />
-                    <telerik:DropDownListItem runat="server" Text="70%" Value="2" />
-                    <telerik:DropDownListItem runat="server" Text="80%" Value="3" />
-                    <telerik:DropDownListItem runat="server" Text="90%" Value="4" />
-                    <telerik:DropDownListItem runat="server" Text="100%" Value="5" />
+                    <telerik:DropDownListItem runat="server" Selected="True" Text="50%" Value="50" />
+                    <telerik:DropDownListItem runat="server" Text="60%" Value="60" />
+                    <telerik:DropDownListItem runat="server" Text="70%" Value="70" />
+                    <telerik:DropDownListItem runat="server" Text="80%" Value="80" />
+                    <telerik:DropDownListItem runat="server" Text="90%" Value="90" />
+                    <telerik:DropDownListItem runat="server" Text="100%" Value="100" />
                 </Items>
             </telerik:RadDropDownList>
         </div>
@@ -34,9 +34,9 @@
                 </Items>
             </telerik:RadCheckBoxList>
             <br />
-            <telerik:RadNumericTextBox ID="PointBox" EmptyMessage="Kursets max point" runat="server" Skin="MetroTouch"></telerik:RadNumericTextBox>
+            <telerik:RadNumericTextBox ID="PointBox" EmptyMessage="Kursets max point" runat="server" Skin="MetroTouch" NumberFormat-DecimalDigits="0"></telerik:RadNumericTextBox>
         </div>
-        <telerik:RadButton ID="AddBtn" runat="server" Text="Tilføj Kursus" Skin="MetroTouch"></telerik:RadButton>
+        <telerik:RadButton ID="AddBtn" runat="server" Text="Tilføj Kursus" Skin="MetroTouch" OnClick="AddBtn_Click"></telerik:RadButton>
     </div>
     <div style="width: 46%; float: left;">
 
