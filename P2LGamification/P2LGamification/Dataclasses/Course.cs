@@ -10,7 +10,7 @@ namespace P2LGamification.Dataclasses
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public int KundeID { get; set; }
+        public Customer Customer { get; set; }
 
         public Course()
         {
@@ -20,7 +20,12 @@ namespace P2LGamification.Dataclasses
         {
             Id = (int)dr["ID"];
             Name = (string)dr["Name"];
-            KundeID = (int)dr["KundeID"];
+
+            Customer = new Customer()
+            {
+                Id = (int)dr["CustomerID"],
+                Name = (string)dr["CustomerName"]
+            };
         }
     }
 }

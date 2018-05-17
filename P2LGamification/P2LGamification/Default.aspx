@@ -8,11 +8,11 @@
     <div id="buttonList" class="auto-style1">
         <telerik:RadMenu ID="RadMenu1" runat="server" Skin="Metro">
             <Items>
-                <telerik:RadMenuItem runat="server" Text="Konfigurer">
+                <telerik:RadMenuItem runat="server" Text="Konfigurer" NavigateUrl="~/Pages/Content/Config.aspx">
                 </telerik:RadMenuItem>
-                <telerik:RadMenuItem runat="server" Text="Simuler E-Læring">
+                <telerik:RadMenuItem runat="server" Text="Simuler E-Læring" NavigateUrl="~/Pages/Content/Simulate.aspx">
                 </telerik:RadMenuItem>
-                <telerik:RadMenuItem runat="server" Text="Vis Achievements">
+                <telerik:RadMenuItem runat="server" Text="Vis Achievements" NavigateUrl="~/Pages/Content/Achievements.aspx">
                 </telerik:RadMenuItem>
             </Items>
         </telerik:RadMenu>
