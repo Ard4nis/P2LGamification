@@ -134,4 +134,3 @@ namespace P2LGamification.Datahandlers
         }
     }
 }
-}

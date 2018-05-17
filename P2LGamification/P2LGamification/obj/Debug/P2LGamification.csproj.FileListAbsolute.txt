@@ -54,9 +54,9 @@ C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\Te
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\Telerik.Web.UI.Skins.dll
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\Telerik.Web.UI.xml
-C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\obj\Debug\P2LGamification.csprojResolveAssemblyReference.cache
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\obj\Debug\P2LGamification.dll.licenses
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\obj\Debug\P2LGamification.csproj.CoreCompileInputs.cache
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\obj\Debug\P2LGamification.csproj.CopyComplete
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\obj\Debug\P2LGamification.dll
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\obj\Debug\P2LGamification.pdb
+C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\obj\Debug\P2LGamification.csprojAssemblyReference.cache
