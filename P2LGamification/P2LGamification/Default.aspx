@@ -6,7 +6,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div id="buttonList" class="auto-style1">
-        <telerik:RadMenu ID="RadMenu1" runat="server" Skin="Metro">
+        <telerik:RadMenu ID="RadMenu1" runat="server" Skin="MetroTouch">
             <Items>
                 <telerik:RadMenuItem runat="server" Text="Konfigurer" NavigateUrl="~/Pages/Content/Config.aspx">
                 </telerik:RadMenuItem>

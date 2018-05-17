@@ -1,3 +1,9 @@
+C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\System.IO.Compression.dll
+C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\VBCSCompiler.exe
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\P2LGamification.dll.config
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\P2LGamification.dll
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\P2LGamification.pdb
@@ -8,13 +14,9 @@ C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\ro
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\csi.exe.config
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\csi.rsp
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\Microsoft.CodeAnalysis.dll
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\Microsoft.VisualBasic.Core.targets
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\Microsoft.Win32.Primitives.dll
@@ -24,7 +26,6 @@ C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\ro
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\System.Diagnostics.Process.dll
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\System.IO.Compression.dll
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\System.IO.FileSystem.dll
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\System.IO.FileSystem.Primitives.dll
@@ -47,7 +48,6 @@ C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\ro
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\vbc.exe
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\vbc.exe.config
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\vbc.rsp
-C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\VBCSCompiler.exe
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\bin\Telerik.Web.UI.dll
@@ -59,4 +59,3 @@ C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\obj\De
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\obj\Debug\P2LGamification.csproj.CopyComplete
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\obj\Debug\P2LGamification.dll
 C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\obj\Debug\P2LGamification.pdb
-C:\Users\kes\Source\Repos\P2LGamification\P2LGamification\P2LGamification\obj\Debug\P2LGamification.csprojAssemblyReference.cache
