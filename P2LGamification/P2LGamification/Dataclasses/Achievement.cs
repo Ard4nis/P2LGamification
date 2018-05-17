@@ -11,10 +11,10 @@ namespace P2LGamification.Dataclasses
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public string PopupText { get; set; }
+        public string CompletionText { get; set; }
         public string ImageURL { get; set; }
-        public int KundeID { get; set; }
-        public int AchievementRequirementID { get; set; }
+        public Customer Customer { get; set; }
+        public AchievementRequirement Requirement { get; set; }
 
         public Achievement()
         {
@@ -23,11 +23,24 @@ namespace P2LGamification.Dataclasses
         public Achievement(DataRow dr)
         {
             Id = (int)dr["ID"];
-            KundeID = (int)dr["KundeID"];
-            AchievementRequirementID = (int)dr["AchievementReqID"];
+
+            Customer = new Customer()
+            {
+                Id = (int)dr["CustomerID"],
+                Name = (string)dr["CustomerName"]
+            };
+
+            Requirement = new AchievementRequirement()
+            {
+                Id = (int)dr["AchievementReqID"],
+                Points = (int)dr["Points"],
+                Logins = (int)dr["Logins"],
+                Courses = (int)dr["Courses"]
+            };
+
             Name = (string)dr["Name"];
             Description = (string)dr["Description"];
-            PopupText = (string)dr["PopupText"];
+            CompletionText = (string)dr["CompletionText"];
             ImageURL = (string)dr["ImageURL"];
         }
     }
