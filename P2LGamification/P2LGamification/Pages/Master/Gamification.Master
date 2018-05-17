@@ -12,15 +12,15 @@
 </head>
 <body>
     <div>
-        <telerik:RadScriptManager ID="RadScriptManager1" runat="server"></telerik:RadScriptManager>
+<telerik:RadScriptManager ID="RadScriptManager1" runat="server"></telerik:RadScriptManager>
         <asp:Panel ID="ContentPanel" runat="server">
-
+            
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
 
         </asp:Panel>
     </div>
-    
+
     <%--<footer style="position: absolute; width: 100%; text-align: center;">
         <asp:Label ID="P2LGamification" runat="server" Text="plan2learn Gamification &copy;"></asp:Label>
     </footer>--%>

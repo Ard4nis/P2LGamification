@@ -127,6 +127,7 @@
     <Content Include="Pages\Content\Achievements.aspx" />
     <Content Include="Pages\Content\Config.aspx" />
     <Content Include="Pages\Content\ConfigureAchievements.aspx" />
+    <Content Include="Pages\Content\ConfigureCourses.aspx" />
     <Content Include="Pages\Content\Scoreboard.aspx" />
     <Content Include="Pages\Content\Simulate.aspx" />
     <Content Include="Default.aspx" />
@@ -172,6 +173,13 @@
     </Compile>
     <Compile Include="Pages\Content\ConfigureAchievements.aspx.designer.cs">
       <DependentUpon>ConfigureAchievements.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Content\ConfigureCourses.aspx.cs">
+      <DependentUpon>ConfigureCourses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Content\ConfigureCourses.aspx.designer.cs">
+      <DependentUpon>ConfigureCourses.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Content\Scoreboard.aspx.cs">
       <DependentUpon>Scoreboard.aspx</DependentUpon>
