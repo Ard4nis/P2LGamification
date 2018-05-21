@@ -13,12 +13,57 @@ namespace P2LGamification.Pages {
     public partial class Default {
         
         /// <summary>
-        /// RadMenu1 control.
+        /// RadTabStrip1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Telerik.Web.UI.RadMenu RadMenu1;
+        protected global::Telerik.Web.UI.RadTabStrip RadTabStrip1;
+        
+        /// <summary>
+        /// RadMultiPage1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Telerik.Web.UI.RadMultiPage RadMultiPage1;
+        
+        /// <summary>
+        /// RadPageView1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Telerik.Web.UI.RadPageView RadPageView1;
+        
+        /// <summary>
+        /// RadPageView2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Telerik.Web.UI.RadPageView RadPageView2;
+        
+        /// <summary>
+        /// RadPageView3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Telerik.Web.UI.RadPageView RadPageView3;
+        
+        /// <summary>
+        /// RadPageView4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Telerik.Web.UI.RadPageView RadPageView4;
     }
 }
