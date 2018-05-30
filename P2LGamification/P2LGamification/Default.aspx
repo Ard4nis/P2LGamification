@@ -19,7 +19,7 @@
         </telerik:RadTabStrip>
     </div>
 
-    <div style="width:100%; float: left; height:600px;">
+    <div style="width:100%; float: left; height:1200px;">
         <telerik:RadMultiPage ID="RadMultiPage1" runat="server" SelectedIndex="0" Width="100%" Height="100%">
             <telerik:RadPageView ID="RadPageView1" runat="server" ContentUrl="~/Pages/Content/Config.aspx"></telerik:RadPageView>
             <telerik:RadPageView ID="RadPageView2" runat="server" ContentUrl="~/Pages/Content/Simulate.aspx"></telerik:RadPageView>

@@ -5,7 +5,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div style="width: 100%; height: 60px;">
-        <telerik:RadDropDownList ID="CustomersDDL" runat="server" DataSourceID="Customers" Skin="MetroTouch" DataTextField="Name" DataValueField="ID"></telerik:RadDropDownList>
+        <telerik:RadDropDownList ID="CustomersDDL" runat="server" DataSourceID="Customers" Skin="MetroTouch" DataTextField="Name" DataValueField="ID" OnSelectedIndexChanged="CustomersDDL_SelectedIndexChanged"></telerik:RadDropDownList>
     </div>
     <div style="width: 20%; float: left;">
         <div style="width: 100%; height: 45px">
@@ -29,7 +29,7 @@
         <div style="width: 100%; height: 100px">
             <telerik:RadCheckBoxList ID="ChbxListScoreSettings" runat="server" AutoPostBack="False">
                 <Items>
-                    <telerik:ButtonListItem Text="Tid" ToolTip="Skal tid spille en faktor ifht. point" Value="0" />
+                    <telerik:ButtonListItem Text="Tid" ToolTip="Skal tid spille en faktor ifht. point" Value="0" Enabled="false" />
                     <telerik:ButtonListItem Text="Procent" ToolTip="Skal gennemførselsprocent spille en faktor i point afgivning" Value="1" />
                 </Items>
             </telerik:RadCheckBoxList>
