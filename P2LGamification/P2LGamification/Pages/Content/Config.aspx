@@ -15,7 +15,7 @@
             </Tabs>
         </telerik:RadTabStrip>
     </div>
-    <div style="width:80%; float: left; height:500px;">
+    <div style="width:80%; float: left; height:1000px;">
         <telerik:RadMultiPage ID="RadMultiPage1" runat="server" SelectedIndex="0" Width="100%" Height="100%">
             <telerik:RadPageView ID="RadPageView1" runat="server" ContentUrl="ConfigureCourses.aspx"></telerik:RadPageView>
             <telerik:RadPageView ID="RadPageView2" runat="server" ContentUrl="ConfigureAchievements.aspx"></telerik:RadPageView>

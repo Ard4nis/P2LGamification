@@ -19,6 +19,7 @@ namespace P2LGamification.Pages.Content
 
         protected void AddBtn_Click(object sender, EventArgs e)
         {
+            
             if (ChbxListScoreSettings.SelectedItems.Count > 0 && PointBox.Value > 0)
             {
                 DBHandler db = new DBHandler();
@@ -54,6 +55,11 @@ namespace P2LGamification.Pages.Content
             {
                 Page.ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('Du skal udfylde alle scoreboard indstillinger, minimum 1 af parameterne skal vælges til.');", true);
             }
+        }
+
+        protected void CustomersDDL_SelectedIndexChanged(object sender, DropDownListEventArgs e)
+        {
+            CurrentCourses.DataBind();
         }
     }
 }
