@@ -148,12 +148,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dataclasses\Achievement.cs" />
-    <Compile Include="Dataclasses\AchievementRequirement.cs" />
     <Compile Include="Dataclasses\User.cs" />
     <Compile Include="Dataclasses\Customer.cs" />
     <Compile Include="Dataclasses\Course.cs" />
     <Compile Include="Dataclasses\Score.cs" />
+    <Compile Include="Datahandlers\AchievementHandler.cs" />
+    <Compile Include="Datahandlers\CourseHandler.cs" />
     <Compile Include="Datahandlers\DBHandler.cs" />
+    <Compile Include="Datahandlers\ScoreHandler.cs" />
     <Compile Include="Pages\Content\Achievements.aspx.cs">
       <DependentUpon>Achievements.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
