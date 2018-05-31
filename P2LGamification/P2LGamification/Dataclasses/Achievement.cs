@@ -14,7 +14,6 @@ namespace P2LGamification.Dataclasses
         public string CompletionText { get; set; }
         public string ImageURL { get; set; }
         public Customer Customer { get; set; }
-        public AchievementRequirement Requirement { get; set; }
 
         public Achievement()
         {
@@ -28,14 +27,6 @@ namespace P2LGamification.Dataclasses
             {
                 Id = (int)dr["CustomerID"],
                 Name = (string)dr["CustomerName"]
-            };
-
-            Requirement = new AchievementRequirement()
-            {
-                Id = (int)dr["AchievementReqID"],
-                Points = (int)dr["Points"],
-                Logins = (int)dr["Logins"],
-                Courses = (int)dr["Courses"]
             };
 
             Name = (string)dr["Name"];

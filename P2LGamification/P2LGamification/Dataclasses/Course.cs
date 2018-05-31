@@ -29,7 +29,13 @@ namespace P2LGamification.Dataclasses
             Time = (bool)dr["Time"];
             Completion = (bool)dr["Completion"];
             MaxScore = (int)dr["MaxScore"];
-            AchievementID = (int)dr["AchievementID"];
+            if (dr.IsNull("AchievementID"))
+            {
+                AchievementID = 0;
+            } else
+            {
+                AchievementID = (int)dr["AchievementID"];
+            }
             Customer = new Customer()
             {
                 Id = (int)dr["CustomerID"],
