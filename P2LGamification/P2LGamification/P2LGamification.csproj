@@ -143,7 +143,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Scripts\Default.css" />
+    <Content Include="Scripts\Achievements.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

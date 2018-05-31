@@ -13,5 +13,10 @@ namespace P2LGamification.Pages.Content
         {
 
         }
+
+        protected void CustomersDDL_SelectedIndexChanged(object sender, Telerik.Web.UI.DropDownListEventArgs e)
+        {
+            Achievement.DataBind();
+        }
     }
 }
