@@ -29,17 +29,11 @@ namespace P2LGamification.Pages.Content
                 !String.IsNullOrEmpty(CompletionTextBox.Text) &&
                 !String.IsNullOrEmpty(FilePath.Value))
             {
-                DBHandler db = new DBHandler();
+                AchievementHandler ah = new AchievementHandler();
                 string ImageUrl = FilePath.Value;
 
-                db.AddParm("@Name", SqlDbType.VarChar, NameBox.Text);
-                db.AddParm("@CustomerID", SqlDbType.Int, CustomersDDL.SelectedValue);
-                db.AddParm("@Description", SqlDbType.VarChar, DescriptionTextBox.Text);
-                db.AddParm("@CompletionText", SqlDbType.VarChar, CompletionTextBox.Text);
-                db.AddParm("@ImageURL", SqlDbType.VarChar, ImageUrl);
-                db.AddParm("@CourseID", SqlDbType.Int, CourseDDL.SelectedValue);
 
-                db.ExecuteNonStp("AddAchievement");
+                ah.AddAchievement(NameBox.Text, Convert.ToInt32(CustomersDDL.SelectedValue), DescriptionTextBox.Text, CompletionTextBox.Text, ImageUrl, Convert.ToInt32(CourseDDL.SelectedValue));
 
                 CurrentAchievements.DataBind();
             }

@@ -27,5 +27,17 @@ namespace P2LGamification.Datahandlers
             return course;
         }
 
+        public void AddCourse(string name, int customerID, int completionPercentage, int time, int completion, double? maxScore)
+        {
+            handler.AddParm("@Name", SqlDbType.VarChar, name);
+            handler.AddParm("@CustomerID", SqlDbType.Int, customerID);
+            handler.AddParm("@CompletionPercentage", SqlDbType.Int, completionPercentage);
+            handler.AddParm("@Time", SqlDbType.Bit, time);
+            handler.AddParm("@Completion", SqlDbType.Bit, completion);
+            handler.AddParm("@MaxScore", SqlDbType.Int, maxScore);
+
+            handler.ExecuteNonStp("AddCourse");
+        }
+
     }
 }
