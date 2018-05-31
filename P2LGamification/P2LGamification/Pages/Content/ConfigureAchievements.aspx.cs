@@ -37,8 +37,9 @@ namespace P2LGamification.Pages.Content
                 db.AddParm("@Description", SqlDbType.VarChar, DescriptionTextBox.Text);
                 db.AddParm("@CompletionText", SqlDbType.VarChar, CompletionTextBox.Text);
                 db.AddParm("@ImageURL", SqlDbType.VarChar, ImageUrl);
+                db.AddParm("@CourseID", SqlDbType.Int, CourseDDL.SelectedValue);
 
-                db.ExecuteNonStp("AddCourse");
+                db.ExecuteNonStp("AddAchievement");
 
                 CurrentAchievements.DataBind();
             }

@@ -41,7 +41,7 @@
                 }
             </script>
         </div>
-        <telerik:RadButton ID="AddBtn" runat="server" Text="Tilføj Kursus" Skin="MetroTouch" OnClick="AddBtn_Click"></telerik:RadButton>
+        <telerik:RadButton ID="AddBtn" runat="server" Text="Tilføj achievement" Skin="MetroTouch" OnClick="AddBtn_Click"></telerik:RadButton>
     </div>
     <div style="width: 33%; height: 60px; float: left;">
 

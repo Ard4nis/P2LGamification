@@ -16,12 +16,12 @@ namespace P2LGamification.Datahandlers
 
         }
         
-        public Course GetCourse(string id)
+        public Course GetCourse(int id)
         {
             DataTable dt = new DataTable();
 
             handler.AddParm("@ID", SqlDbType.Int, id);
-            handler.ExecuteSql("GetCourse", ref dt);
+            handler.ExecuteStp("GetCourse", ref dt);
 
             Course course = new Course(dt.Rows[0]);
             return course;

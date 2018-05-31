@@ -117,7 +117,7 @@
 
     </div>
     <asp:SqlDataSource ID="Customers" runat="server" ConnectionString="<%$ ConnectionStrings:DBConnectionString %>" SelectCommand="SELECT * FROM [Customer]"></asp:SqlDataSource>
-    <asp:SqlDataSource ID="Courses" runat="server" ConnectionString="<%$ ConnectionStrings:DBConnectionString %>" SelectCommand="SELECT * FROM [Course] WHERE ([CustomerID] = @CustomerID)" DeleteCommand="DELETE FROM [Course] WHERE ([ID] = @ID)">
+    <asp:SqlDataSource ID="Courses" runat="server" ConnectionString="<%$ ConnectionStrings:DBConnectionString %>" SelectCommand="SELECT * FROM [Course] WHERE ([CustomerID] = @CustomerID)" DeleteCommand="RemoveCourse" DeleteCommandType="StoredProcedure">
         <SelectParameters>
             <asp:ControlParameter ControlID="CustomersDDL" Name="CustomerID" PropertyName="SelectedValue" Type="Int32" />
         </SelectParameters>

@@ -22,6 +22,15 @@ namespace P2LGamification.Pages.Content {
         protected global::Telerik.Web.UI.RadDropDownList CustomersDDL;
         
         /// <summary>
+        /// RadLabel3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Telerik.Web.UI.RadLabel RadLabel3;
+        
+        /// <summary>
         /// UsersDDL control.
         /// </summary>
         /// <remarks>
