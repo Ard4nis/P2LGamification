@@ -19,10 +19,10 @@ namespace P2LGamification.Pages.Content
 
         protected void AddBtn_Click(object sender, EventArgs e)
         {
-            
+
             if (ChbxListScoreSettings.SelectedItems.Count > 0 && PointBox.Value > 0)
             {
-                DBHandler db = new DBHandler();
+                CourseHandler ch = new CourseHandler();
                 int percentageCompletion = Convert.ToInt32(CompletionDDL.SelectedValue);
                 int time = 0;
                 int completion = 0;
@@ -40,14 +40,9 @@ namespace P2LGamification.Pages.Content
                     }
                 }
 
-                db.AddParm("@Name", SqlDbType.VarChar, NameBox.Text);
-                db.AddParm("@CustomerID", SqlDbType.Int, CustomersDDL.SelectedValue);
-                db.AddParm("@CompletionPercentage", SqlDbType.Int, percentageCompletion);
-                db.AddParm("@Time", SqlDbType.Bit, time);
-                db.AddParm("@Completion", SqlDbType.Bit, completion);
-                db.AddParm("@MaxScore", SqlDbType.Int, PointBox.Value);
 
-                db.ExecuteNonStp("AddCourse");
+
+                ch.AddCourse(NameBox.Text, Convert.ToInt32(CustomersDDL.SelectedValue), percentageCompletion, time, completion, PointBox.Value);
 
                 CurrentCourses.DataBind();
             }
