@@ -5,15 +5,15 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div style="width: 100%; height: 60px;">
-        <telerik:RadDropDownList ID="CustomersDDL" runat="server" DataSourceID="Customers" Skin="MetroTouch" DataTextField="Name" DataValueField="ID" OnSelectedIndexChanged="CustomersDDL_SelectedIndexChanged"></telerik:RadDropDownList>
+        <telerik:RadDropDownList ID="CustomersDDL" runat="server" AutoPostBack="true" DataSourceID="Customers" Skin="MetroTouch" DataTextField="Name" DataValueField="ID" OnSelectedIndexChanged="CustomersDDL_SelectedIndexChanged"></telerik:RadDropDownList>
     </div>
     <telerik:RadLabel ID="RadLabel3" runat="server" Text="Vælg bruger:" Skin="MetroTouch"></telerik:RadLabel>
     <br />
-    <telerik:RadDropDownList ID="UsersDDL" runat="server" DataSourceID="Users" DataTextField="Name" DataValueField="ID" Skin="MetroTouch"></telerik:RadDropDownList>
+    <telerik:RadDropDownList ID="UsersDDL" runat="server" AutoPostBack="true" DataSourceID="Users" DataTextField="Name" DataValueField="ID" Skin="MetroTouch"></telerik:RadDropDownList>
     <br />
     <telerik:RadLabel ID="RadLabel1" runat="server" Text="Vælg kursus:" Skin="MetroTouch"></telerik:RadLabel>
     <br />
-    <telerik:RadDropDownList ID="CoursesDDL" runat="server" DataSourceID="Courses" DataTextField="Name" DataValueField="ID" Skin="MetroTouch"></telerik:RadDropDownList>
+    <telerik:RadDropDownList ID="CoursesDDL" runat="server" AutoPostBack="true" DataSourceID="Courses" DataTextField="Name" DataValueField="ID" Skin="MetroTouch"></telerik:RadDropDownList>
     <br />
     <telerik:RadLabel ID="RadLabel2" runat="server" Text="Hvor mange procent korrekt havde du:" Skin="MetroTouch"></telerik:RadLabel>
     <br />
