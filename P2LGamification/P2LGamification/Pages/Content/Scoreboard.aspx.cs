@@ -13,5 +13,16 @@ namespace P2LGamification.Pages.Content
         {
 
         }
+
+        protected void CustomersDDL_SelectedIndexChanged(object sender, Telerik.Web.UI.DropDownListEventArgs e)
+        {
+            CoursesDDL.DataBind();
+            Scores.DataBind();
+        }
+
+        protected void CoursesDDL_SelectedIndexChanged(object sender, Telerik.Web.UI.DropDownListEventArgs e)
+        {
+            Scores.DataBind();
+        }
     }
 }
